@@ -1,9 +1,14 @@
-# Driver State Detection App
+# Clear Steer
 
 ## Overview
 
 This project utilizes the YOLO (You Only Look Once) model and OpenVINO to detect driver states and develop an application that guides drivers based on their current state. The application is built using Flutter for the front end and leverages Python for backend processing.
 
+## Innovation
+Comprehensive Detection of Awake, Distraction, Head Drop, Drowsiness, phone usage, and smoking.
+AI-Driven: Real-time deep learning analysis for accuracy.
+Actionable Alerts: Escalates from warnings to alarms for greater impact.
+Cost-Effective: Uses smartphone camera, no additional hardware.
 ## Features
 
 - Real-time driver state detection (awake, distracted, drowsy, head drop, phone usage, smoking, yawning).
