@@ -46,11 +46,11 @@ To run the Flutter app, use the following command:
 ```bash
 flutter run
 ```
-## Setting Up the Python Environment
+## Setting Up the Python Environment YOLO using Intel Open VINO:
 
-1. Navigate to the Python backend directory (if applicable):
+1. Navigate to the Python directory:
     ```bash
-    cd path/to/python/backend
+    cd path/to/python
     ```
 
 2. Install the required Python packages:
@@ -58,7 +58,11 @@ flutter run
     pip install -r requirements.txt
     ```
 
-### Running the Python Backend
+### Running the Python 
+    ```bash
+    streamlit run driverstate.py
+    ```
+
 
 To run the Python backend, use:
 ```bash
