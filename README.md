@@ -64,9 +64,9 @@ flutter run
     ```
 
 ### Running the Python 
-    ```bash
+ ```bash
     streamlit run driverstate.py
-    ```
+  ```
 
 
 To run the Python backend, use:
