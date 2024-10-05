@@ -1,0 +1,44 @@
+name: flutter_application_1
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.3.1 <4.0.0'
+
+dependencies:
+
+  flutter_tts: ^4.0.2
+  flutter:
+    sdk: flutter
+  fluttertoast: ^8.0.9
+
+  cupertino_icons: ^1.0.6
+  
+  # Firebase dependencies
+  firebase_core: 3.4.0  # Replace with the latest version
+  firebase_auth: ^5.2.0  # Replace with the latest version
+  cloud_firestore: ^5.1.0  # Replace with the latest version
+  tflite_flutter: ^0.11.0
+  camera: ^0.11.0+2
+  image: ^4.2.0
+  http: ^1.2.2
+  image_picker: ^1.1.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/logo.png
+    - assets/50epoch_float32.tflite
+    - assets/awake.png
+    - assets/very_dis.png
+    - assets/last trip.png
+    - assets/graph.jpg
+    - assets/phone.png
+    - assets/drowsy.png
